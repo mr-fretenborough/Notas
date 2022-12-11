@@ -9,10 +9,53 @@
 [Unsupervised](#supervised-and-unsupervised-learning)|
 Induction|The process of learning (or optimizing) a target function based on training data to be used to create new predictions.
 Generalization|The level to which the concepts--inductively--learned by a model apply to specific examples not seen by the model when it was learning.
+[Bias](#bias-and-variance)|A phenomenon that skews the result of an algorithm towards or against an idea
+[Variance](#bias-and-variance)|Changes in the model when using difference portions of the training data set
 
 [Google ML Glossary](https://developers.google.com/machine-learning/glossary)
 
-## **Overfitting and Underfitting**
+## [**Overfitting and Underfitting**](https://machinelearningmastery.com/overfitting-and-underfitting-with-machine-learning-algorithms/)
+While both over and underfitting indicate poor model performance, overfitting is the most common problem with model optimization. Two things you can do to mitigate or monitor your model are to use a resampling technique to estimate model accuracy or use a portion of the training set as a validation set.
+
+[_Measuring Over or Underfitting_](https://towardsdatascience.com/overfitting-vs-underfitting-a-complete-example-d05dd7e19765)
+
 
 ## **Supervised and Unsupervised Learning**
+
+## [**Bias and Variance**](https://www.bmc.com/blogs/bias-variance-machine-learning/)
+While both a high bias or variance will cause poor performance in a model, its important to know the difference.
+
+![image](images/Screenshot%202022-12-11%20at%202.50.00%20AM.png)
+Signs of high bias:
+* Failure to capture data trends
+* Underfitting
+* Overly simplified
+* High error rate
+
+![image](images/Screenshot%202022-12-11%20at%202.54.23%20AM.png)
+Signs of high variance:
+* Noise in data set
+* Overfitting
+* Overly complex
+* Forcing data points together
+
+You may also note that bias and varaince are inversely connected (); models with high bias will have low variance and vice versa.
+
+[_Calculating Bias-Variance Tradeoff_](http://rasbt.github.io/mlxtend/user_guide/evaluate/bias_variance_decomp/)
+
+Bias is defined as the difference between the expected value of the estimator and the parameter that we want to estimate
+$$
+Bias=E[\hat{\theta}]-\theta
+$$
+
+Variance is defined as the difference between the expected value of the squared estimator mimus the squares expectation of the estimator.
+$$
+Variance(\hat{\theta})=E[\hat{\theta}^2]-\left(E[\hat{\theta}] \right)^2
+\newline or \newline
+Variance(\hat{\theta})=E\left[\left(E[\hat{\theta}]-\hat{\theta} \right)^2 \right]
+$$
+
+where $\hat{\theta}$ represents some given point estimator of some parameter or function $\theta$ and $E\left[ \right]$ represents some expected output.
+
+Furthermore, these formulae only apply to squared error loss, not for 0-1 loss. 0-1 loss is commonly used for classification problems where the predictions proximity to either 0 or 1 indicate the model's favor.
 
