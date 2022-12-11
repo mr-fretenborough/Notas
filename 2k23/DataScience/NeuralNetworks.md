@@ -5,7 +5,7 @@ Think of a neural network as a machine that takes in several inputs (or "feature
 ## **Activation Functions**
 Activation functions are functions that enable neural networks to learn nonlinear ("complex") relationships between features and lables.
 ### _ReLU_
-
+![image]("./images/Screenshot 2022-12-11 at 12.07.14 AM.png")
 ### _Sigmoid_
 
 ## **Basic Idea**
