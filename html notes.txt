@@ -1,0 +1,129 @@
+html is made of tags (how a web browser will read the part of close
+	ususallyconsists of opening and closing tags
+		<html>
+			<head>
+				--information about the page
+				<title>Hello World</title> --shows as the tab name
+			</head>
+
+			<body>
+				--content displayed to the user
+				<h1>big heading</h1> --makes the biggest heading
+				<h2>smaller heading</h2> -progressively smaller heading with the higher h(x) number
+				<p>paragraph text</p> --creates a paragraph, if you want more, just add more p tags
+				<img src="image.path" width="50" />
+					you set image properties within the tag and you only need a relative path
+					the dimensions are in pixels
+					the end of the open tag closes it, making it open and close with one tag
+				<h2> first line of paragraph <br/> second line of paragraph</h2>
+					the <br/>puts the second line text onto the next line of text
+				<hr/>  --puts a horizontal line through the page
+			</body>			
+		</html>
+
+stands for hypertext markup language (not actually a programing language, ex. no logic)
+f12 is developer tools in most browsers
+	default margins for elements can be seen here
+how to comment in html <!--comment content-->
+have to use css to change properties of html text
+inline elements: dont start on new line, takes only necessary width
+block elements: start on new line, takes full width
+<strong>bold content</strong>
+	goes around text (can be in paragraph) and means you want this text to be strong
+	default is bold, but can be changed
+<em>Itallic content</em>
+	same as above but emphasize, default is itallics, but can be changed
+<a href="actual link" target="_blank">link content</a>
+	this will create a link and the "a" means attribute
+	target="_blank" means the link will create open in a new tab
+all tags can have attributes
+	provides info about an element
+	placed within the start tag (frst tag)
+	key/value pairst (id="someid")
+<ul>
+	<li>list item one</li>
+	<li>list item two</li>	
+	<li>list item three</li>
+</ul>
+	creates an UNORDERED bulleted list in your page
+	an ORDERED numbered list would be <ol>
+
+<table>
+	<thead>
+		<tr> --table row
+			<th>heading name 1</th> --table heading input
+			<th>heading name 2</th>
+		</tr>
+	</thead> --table heading
+	<tbody> --table body
+		<tr>
+			<td>hdata 1</td> --table data
+			<td>hdata 2</td>
+		</tr>
+		<tr>
+			<td>hdata 1 cont</td>
+			<td>hdata 2 cont</td>
+		</tr>
+	</tbody>
+</table>
+
+<form action="process.php" method="post"> --create form | usually has attributes like action that makes the thing do an action and the method does somethign too
+	<label>form label</label>
+	<input type="text" name="input-name" --the type and name change based on the input you are requesting
+		placeholder="some placeholder"> --this is like "enter name here" and it disappears when you click on the box
+	<label>form label2</label>
+	<textarea name="adjustable text box"></textarea>
+	<label>form label3</label>
+	<select name="dropdown menu">
+		<option value="option 1">option 1 name</option>
+		<option value="option 2">option 2 name</option>
+	</select>
+	<input type="submit" name="submit" value="submit"></input> --this creates a button
+</form>
+	forms are inline, and this allows the user to input information
+<div>STUFF YOU WANTED NOT ON SAME LINE</div> 
+	(doesnt have to be caps) divides things, puts them on different lines
+
+<button>button name</button> --creates a button
+
+<p>The <abbr title="Science Tech Eng Math Med">STEMM<abbr> Academy</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

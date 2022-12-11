@@ -1,0 +1,85 @@
+switches: allow devices on your network to communicate with each other, giving you a network of resoures.
+	two types
+		managed: can monitor and adjust locally or remotely (can be configured)
+		unmanaged: will work out of the box, not as much finesse (cant be configured)
+
+routers: can connect multiple networks together and computers to the internet
+	* allows multiple devices to share a single internet connection (saving money)
+	* connects business to world, secutiry benefits, decide computer hierarchy
+	* analyzes data adn chooses best route for data to travel
+	* this is where VPN, IP, and firewall come into play
+
+access points: connects devices to the network without cables, can easily bring new devices onto the netowrk and opens possibiities for mobile workers
+	* increases bandwidth so more, and stronger connections can be made to the network
+	* can increase security by giving more info on connected devices
+	* theres a lot of differences between them, not plug and play
+
+modem: different from a router, this connects you to the internet
+	* a router simply connects the devices to one another, which pushes to the modem
+devices on a network are called "clients"
+	* each client gets a local IP address (apartment #)
+	* while the moedem gets a global IP address (street address)
+		- these addresses are given to help with the movement of data
+
+
+
+types of router connections
+	* wired:
+		- fast, reliable, and cheap
+		- good for devices that dont move around a lot due to the neccessary wire
+			> e.g. desktops
+		- capable of moving large files and video-chatting etc.
+	* wireless:
+		- best for laptops and phones
+		- adequate for web browsing, but not much more
+router throughput = the speed at which a router can transfer data.
+	nomenclature: "wireless G" < "wireless N" 
+		- downside to wireless N is that it is more expensive and not fully supported
+		- you can turn on "mixed mode" on your router to support both N and G
+	* wired throughput:
+		- 10/100 mbps : cheaper but slower
+		- 10/100/100 mbps : "gigabit" faster but costs more
+			> take these into consideration when choosing a router "how fast do i 			  want to transfer big files
+router ports:
+	* WAN ports: connects your router to yout modem, thus, to the internet
+	* LAN ports: used for wired connections to your router	
+		- you will need as many ports as devices, or used a wired switch
+router bands:
+	* newer routers are "dual band" which means they connect with both 2.4 ghz and 5 ghz
+		- dual bad is better becuase the 5 ghz has less interference (competition)
+		- higher frequency = less penetration through walls
+		- older devices might ont support it
+			> solution: "simultanteous band" router, runs both bands at once.
+router secutiry:
+	* WAP 2 is the most secure so use it when you can
+		- obviously not completely supported by everything
+			> in this case you will have to use WEP
+				~ if so, try to get a guest access feature on router
+
+
+
+types of switches:
+	* level 2 "network layer" : common, less expensive, good performance
+		- use device's physical address (MAC address) to push the data
+	* level 3 "data link layer" : mostly same as above, but can route between subnets 	
+	  (VLANs), making it easier on your router
+switch duplexes
+	* half duplex: only one directional connection (send OR recieve) 
+		- collisions can fcuk shit up, degrading performance
+	* full duplex: send AND recieve, much better lmao
+you want a swith with a large MAC table size if youre dealing with a lot of connected devices
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

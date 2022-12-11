@@ -1,0 +1,9 @@
+A / B r C
+	A = tire tread width (in mm)
+	B = ratio of width to sidewall
+	C = diameter (in in)
+
+my stock wheels: 205/55 r16
+
+headlights: 
+	spec-d upgrade: H1 12v/55w hi beam | H7 12v/55w low beam

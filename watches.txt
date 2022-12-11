@@ -1,0 +1,26 @@
+invicta speedway 9212
+	39.5mm case diameter
+	20mm band width
+	20 atm pressure rating
+	created in 2011
+		now discontinued
+	24k gold plated steel
+	japanese quartz movement
+	chronograph / tachymeter
+
+mvmnts
+	man: wind up watch
+		dont wind too far or damage mainspring
+	auto: auto winds from use
+		less chance of messing up mainspring
+		still need to wear
+	quartz: battery operated
+		most accurate
+types
+	chronograph: translates to timer
+		can use to as a start and stop watch
+	tachymeter: has a dial around the bezel
+		can be used to track elapsed time as well
+		but less chance of damage
+	chronometer: simply means that it meets some very
+		very very precise standards

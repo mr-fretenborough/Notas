@@ -1,0 +1,44 @@
+function 
+	steven's gonna get mad lmao
+	
+functions modularize code  ( similar to sp's) : code is all in one place
+	Makes code more readable ( sometimes easier to follow ) 
+		can manage your joins and aliasing
+Query optimizer has issues with function ( bc its interpreted instead of )
+	scalar fxns are necessarily rbar
+	table-valued functions
+		we are most used to seeing and dealing with rbar fxns
+		rbar tvf's are called "multi statement"
+	theres a use for fxns
+execution plans hide functions 
+	= the ugliest part
+	means you cant optimize code
+	dont put complicated logic in fxns
+		needs to be as dimple as possible
+	estimates can be very wrong
+	you cant look at anything-even in the exec plan-about the
+		fxn (ex. actual I/O) and you cant see percentage cpu usage
+
+You need to be able to make your fxn readable by sql server
+	this way, sql server can auto optimize itself
+	"inline fxns?"
+	dont create fxns with rbar
+	
+
+difference between rbar and inline set-based is performance
+	like views and comes wiht their optimization
+	rbar goes through each row pain-stakingly
+	okay rbar is really bad ( most of the time )
+
+excessive grant on something means other things might not get what they need
+	when more memory is given to a query that doesnt need it
+
+/**** irrelevant notes: indexes are numbered 1, 2, 3, ... etc., but when one is deleted, the index number isnt used again,
+	so if index 2 was deleted and another was created, the index numbers would be, 1, 3, 4, ... etc.  		   ****/
+
+sprocs, if you want to use something, you have to place into a table by declaring
+	stuff adn other stuff-wont work very well if the table cahnges
+fxns are better sometimes
+
+
+
