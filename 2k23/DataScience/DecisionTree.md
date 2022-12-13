@@ -79,7 +79,7 @@ Because the complexity of your decision tree is based on the number of features 
 Now that we have built out the tree, we can further optimize it by pruning. This is when we remove branches (or sub-trees) which use features with low importance. One method of pruning is called _Reduced Error Pruning_; which starts from the leaves and removes nodes with most popular class, decided based on whether or not the removal does not hurt accuracy. Other--more complex--methods are _Cost Complexity Pruning_ or _Weakest Link Pruning_
 
 ## **Boosting**
-Boosting uses a base machine learning algorithm to fit data for any model, but it is most widely used for Decision Trees.
+Boosting uses a base machine learning algorithm to fit data for any model, but it is most widely used for Decision Trees. The term "boosting" refers to a family of algorithms
 
 ---
 ---
