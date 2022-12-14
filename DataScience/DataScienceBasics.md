@@ -11,6 +11,7 @@ Induction|The process of learning (or optimizing) a target function based on tra
 Generalization|The level to which the concepts--inductively--learned by a model apply to specific examples not seen by the model when it was learning.
 [Bias](#bias-and-variance)|A phenomenon that skews the result of an algorithm towards or against an idea
 [Variance](#bias-and-variance)|Changes in the model when using difference portions of the training data set
+[Residuals](#residuals)|The difference between an observed value and a predicted value
 
 [Google ML Glossary](https://developers.google.com/machine-learning/glossary)
 
@@ -83,4 +84,12 @@ where $\alpha$ is the learning rate and $\sum_{i=0}^{n}(y_i-y_i^p)$ is the sum o
 Weak classifiers are those whose predictions are either "wishy-washy" or inaccurate. For example, imagine you make a classifier whose output is somewhere between 0 and 1; any classifier who consistenly guesses near 0.5 or consistently guesses incorrectly is considered to be a weak classifier.
 
 On the other hand, strong classifiers are ones that make "strong" guesses and are generally accurate. An example of this would be a classifier that consistenly give an accurate guess close to 0 **or** 1.
+
+## [__Residuals__]()
+As stated above, a residual is the difference between an observed value and a predicted value in regression analysis. In practice, a residual will have a positive value if its coordinates lie above the fitted line, and negative otherwise. However, goal of generating a fitted line is finding a linear equation such that the sum of all residuals--positive and negative--equate to zero. A single residual over a dataset is calculated with:
+$$
+r = y_i - y_i^p
+$$
+where $y_i$ represents the $i^{th}$ observation and $y_i^p$ represents the $i^{th}$ prediction
+
 

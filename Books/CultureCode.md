@@ -1,0 +1,8 @@
+- The Phoenix Project
+- How to Win Friends and Influence People
+- Never Split the Difference
+- Awaken the Giant Within
+- Rich Dad, Poor Dad
+- The Culture Code
+- How to Stop Worrying and Start Living
+- Start with Why
