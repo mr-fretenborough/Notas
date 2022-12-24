@@ -1,13 +1,13 @@
 # 2009 E90 BMW 328i
 
 ## Metadata
-wheel info
-tire info
-hp
-gas mileage
 
 230 hp @ 6500 rpm
 HFXP41
+
+* E90 -> coupe
+* E91 -> touring
+* E92 -> sedan
 
 ## Mods & Repairs
 |Part|Cost|
