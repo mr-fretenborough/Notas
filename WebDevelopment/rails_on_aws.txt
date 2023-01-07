@@ -1,0 +1,2 @@
+Created t2.micro instance running ubuntu 20.04 with vor_key.pem
+
