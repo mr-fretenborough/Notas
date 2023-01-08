@@ -1,2 +1,87 @@
 Created t2.micro instance running ubuntu 20.04 with vor_key.pem
 
+https://gorails.com/setup/ubuntu/20.04
+
+having issue with sqlite3
+https://stackoverflow.com/questions/34171874/an-error-occurred-while-installing-sqlite3-1-3-11-and-bundler-cannot-continue
+
+https://www.thelinuxfaq.com/ubuntu/ubuntu-17-04-zesty-zapus/sqlite3?type=uninstall
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-sqlite-on-ubuntu-20-04
+
+ERROR failed to build gem native extension
+could not configure the build properly
+broke on "Activating sqlite3 3.40.0 from (...)"
+Gem files will remain installed in /home/ubuntu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/sqlite3-1.5.4 for inspection.
+Results logged to /home/ubuntu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/extensions/x86_64-linux/3.2.0/sqlite3-1.5.4/gem_make.out
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+  /home/ubuntu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/extensions/x86_64-linux/3.2.0/sqlite3-1.5.4/mkmf.log
+  
+1.5.4
+
+1.4
+
+it is working now and i can run "rails server"
+
+https://stackoverflow.com/questions/28727798/cant-connect-to-rails-server-running-on-ec2-from-public-ip
+
+https://www.codewithjason.com/how-to-deploy-a-ruby-on-rails-application-to-aws/
+
+add new rule "custom tcp" "3000" "0.0.0.0/0" to security group to allow us to see localhost
+
+decided to just go with mysql since sqlite3 is such a hoe
+
+https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql
+
+now i need to find out my password
+
+sudo mysql -u root
+
+CREATE USER 'val_on_rails'@'localhost' IDENTIFIED WITH authentication_plugin BY 'Thisisvalorantonrail5';
+
+mysql -u val_on_rails -p
+
+GRANT ALL PRIVILEGES ON *.* TO 'val_on_rails'@'localhost' WITH GRANT OPTION;
+
+HOLY MOLY RAILS APP FINALLY STARTED
+
+multiple applications have different Gemfile which tells the config for a particular project
+
+inspect elemtn and look at entwork says all http requests called
+
+http goes on port 80 and https goes on port 443
+
+https://www.youtube.com/watch?v=Bx2mFSsrucM&list=PLm8ctt9NhMNV75T9WYIrA6m9I_uw7vS56&index=3
+
+amke sure to use rails server -b 0.0.0.0
+
+i made the about page    https://www.youtube.com/watch?v=lwL_KWtflN0&list=PLm8ctt9NhMNV75T9WYIrA6m9I_uw7vS56&index=5
+
+applicateion.html.erb "yield" will be replaced with your page to make the view
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
