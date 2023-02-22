@@ -1,3 +1,6 @@
+# Execute this by running:
+#   sh get_snippet.sh
+
 #!/bin/bash
 # Navigate to Home directory
 cd ~
